@@ -1,3 +1,4 @@
+
 decode = {
     "a":[0,1],
     "b":[1,0,0,0],
@@ -31,3 +32,4 @@ string = input("Enter a string to turn into morse code: ")
 for letter in string:
     #print(letter.lower())
     print(decode[letter.lower()])
+
